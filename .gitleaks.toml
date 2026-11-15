@@ -1,0 +1,16 @@
+title = "Ristonchi staff"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Placeholders and the documented demo password, which is not a real credential."
+paths = [
+  '''(^|/)\.env\.example$''',
+  '''(^|/)NORBERT\.md$''',
+  '''(^|/)README\.md$''',
+]
+regexes = [
+  '''ristonchi-demo''',
+  '''TEAMIDPLACEHOLDER''',
+]

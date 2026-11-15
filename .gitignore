@@ -1,0 +1,34 @@
+node_modules/
+dist/
+coverage/
+.vite/
+.wrangler/
+*.tsbuildinfo
+
+# Secrets and local env. .env.example is the only env file we commit.
+.env
+.env.*
+!.env.example
+.dev.vars
+*.pem
+*.p8
+*.p12
+*.mobileprovision
+AuthKey_*.p8
+
+# OS and editors
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# iOS local build output
+apps/ios/**/xcuserdata/
+apps/ios/**/DerivedData/
+apps/ios/**/*.xcuserstate
+apps/ios/vendor/
+apps/ios/.bundle/
+
+# Logs
+npm-debug.log*
+*.log

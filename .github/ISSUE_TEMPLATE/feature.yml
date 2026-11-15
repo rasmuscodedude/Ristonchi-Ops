@@ -1,0 +1,23 @@
+name: Feature
+description: A change to the staff app
+title: "feat: "
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: What staff need
+    validations:
+      required: true
+  - type: textarea
+    id: roles
+    attributes:
+      label: Who it is for
+      description: Which role or agent, and whether it reads or writes Norberto.
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Done when
+    validations:
+      required: true

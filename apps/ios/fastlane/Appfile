@@ -1,0 +1,2 @@
+app_identifier("com.ristonchi.staff")
+team_id(ENV.fetch("APPLE_TEAM_ID", "TEAMIDPLACEHOLDER"))

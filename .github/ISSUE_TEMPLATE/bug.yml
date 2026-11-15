@@ -1,0 +1,23 @@
+name: Bug
+description: Something in the staff app is wrong
+title: "fix: "
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what you saw.
+    validations:
+      required: true
+  - type: textarea
+    id: who
+    attributes:
+      label: Who was signed in
+      description: Role and agent. Do not paste customer names, emails, or tokens.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Extra detail
+      description: Screenshots or error text, with secrets removed.

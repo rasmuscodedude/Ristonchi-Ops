@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ristonchi-staff-agent",
+  "main": "src/worker.ts",
+  "compatibility_date": "2026-11-15",
+  "observability": {
+    "enabled": true,
+    "logs": { "enabled": true, "head_sampling_rate": 1 },
+    "traces": { "enabled": true, "head_sampling_rate": 0.01 },
+  },
+  "vars": {
+    "AUTH_MODE": "mock",
+    "PLATFORM_MODE": "mock",
+    "LLM_PROVIDER": "mock",
+    "PLATFORM_MCP_URL": "https://api.ristonchi.com/mcp",
+    "PLATFORM_AUTH_URL": "https://api.ristonchi.com",
+    "WEB_ORIGIN": "http://localhost:5173",
+  },
+}
